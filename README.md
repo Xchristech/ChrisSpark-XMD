@@ -6,16 +6,16 @@ src="https://files.catbox.moe/ab2zpo.png">
 
    </p>
 <p align="center">
-<a href="https://github.com/Chimbiko-xd"><img title="Author" src="https://img.shields.io/badge/Chris-blue?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@official_manuel"><img title="Author" src="https://img.shields.io/badge/YT CHANNEL-darkred?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/2348069675806"><img title="Author" src="https://img.shields.io/badge/Contact Me-darkgreen?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/Chimbiko-xd"><img title="Author" src="https://img.shields.io/badge/Chris-blue?style=for-the-badge&logo=Github"></a> <a href="https://www.youtube.com/@ChrisSpark-XMD"><img title="Author" src="https://img.shields.io/badge/YT CHANNEL-darkred?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/2348069675806"><img title="Author" src="https://img.shields.io/badge/Contact Me-darkgreen?style=for-the-badge&logo=whatsapp"></a>
 <p/> 
 
  <p align="center">
 <a href="https://github.com/Chimbiko-xd/followers"><img title="Followers" src="https://img.shields.io/github/followers/Chimbiko-xd?color=purple&style=flat-square"></a>
-<a href="https://github.com/OfficialKango/ChrisSpark-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Chimbiko-xd/CHRISSPARK-XMD?color=blue&style=flat-square"></a>
-<a href="https://github.com/OfficialKango/CHRISSPARK-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/OfficialChimbiko/CHRISSPARK-XMD?color=blue&style=flat-square"></a>
-<a href="https://github.com/Chimbiko-xd/CHRISSPARK-XMD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/OfficialChimbiko/CHRISSPARK -XMD?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/OfficialChimbiko/CHRISSPARK-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/OfficialKango/KANGO-XMD?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FOfficialKango%2FKANGO-XMD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/Chimbiko-xd/ChrisSpark-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Chimbiko-xd/CHRISSPARK-XMD?color=blue&style=flat-square"></a>
+<a href="https://github.com/Chimbiko-xd/CHRISSPARK-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/OfficialChimbiko/CHRISSPARK-XMD?color=blue&style=flat-square"></a>
+<a href="https://github.com/Chimbiko-xd/CHRISSPARK-XMD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Chimbiko-xd/CHRISSPARK-XMD?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/OfficialChimbiko/CHRISSPARK-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/Chimbiko-xd/CHRISSPARK-XMD?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FChimbiko-xd%2FCHRISSPARK-XMD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/Chimbiko-xd/CHRISSPARK-XMD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;</a>
 <p align="center"><img src="https://profile-counter.glitch.me/{KANGO-XMD}/count.svg" alt="OfficialKango :: Visitor's Count" old_src="https://profile-counter.glitch.me/{OfficialKango}/count.svg" /></p>
 <p align="center">
