@@ -1,6 +1,4 @@
-FROM node:lts
-
-# Install dependencies
+# Install media tools
 RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg imagemagick webp && apt-get clean
 
 # Set working directory
@@ -12,14 +10,14 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install && npm cache clean --force
 
-# Copy application code
+# Copy app code
 COPY . .
 
-# Expose port
+# Optional: Expose port if your bot runs a web server
 EXPOSE 3000
 
 # Set environment
-ENV NODE_ENV production
+ENV NODE_ENV=production
 
-# Run command
-CMD ["npm", "run", "start"]
+# Start the bot
+CMD ["npm", "start"]
