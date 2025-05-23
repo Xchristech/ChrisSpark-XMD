@@ -1,3 +1,4 @@
+
 <img align="center" height="auto"
 src="https://files.catbox.moe/ab2zpo.png">
 
@@ -54,7 +55,7 @@ Click the button below to fork CHRISSPARK-XMD Repository to your GitHub account:
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 <p align="left">
-  <a href="https://pair-xmd-kango.onrender.com/pair?">
+  <a href="https://chrisspark-xmd-session.onrender.com/pair?">
     <img src="https://img.shields.io/badge/%F0%9F%9A%80%20SECOND%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
   </a>
 </p>
@@ -68,7 +69,7 @@ Click the button below to fork CHRISSPARK-XMD Repository to your GitHub account:
     <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 
-[![Deploy on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://repl.it/github/OfficialKango/KANGO-XMD)
+[![Deploy on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://repl.it/github/Chimbiko-xd/CHRISSPARK-XMD)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
@@ -79,7 +80,7 @@ Click the button below to fork CHRISSPARK-XMD Repository to your GitHub account:
 <details>
 <summary>𝘋𝘌𝘗𝘓𝘖𝘠 𝘛𝘖 𝘏𝘌𝘙𝘖𝘒𝘜, 𝘔𝘌𝘛𝘏𝘖𝘋 2</summary>
  
-* `Fork` KANGO-XMD Repository or `sync` if you had forked.
+* `Fork` CHRISSPARK-XMD Repository or `sync` if you had forked.
 * `Link` to your WhatsApp using Server 1, 2 or 3
 * Incase you use Server 2, paste the session id on settings.js @SESSION_ID
 * If you used Server 3, upload the `creds.json` received in the `session` folder.
@@ -184,7 +185,7 @@ npm start
 
 ## `FOR TERMUX`
 ```bash
-pkg update && pkg upgrade -y && apt-get install -y bash libwebp git nodejs ffmpeg wget imagemagick && git clone https://github.com/OfficialKango/KANGO-XMD && cd KANGO-XMD && npm install && npm start
+pkg update && pkg upgrade -y && apt-get install -y bash libwebp git nodejs ffmpeg wget imagemagick && git clone https://github.com/Chimbiko-xd/CHRISSPARK-XMD && cd CHRISSPARK-XMD && npm install && npm start
 ```
 
 ## `FOR 24/7 ACTIVATION PM2 (TERMUX)`
