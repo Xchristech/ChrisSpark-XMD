@@ -1,23 +1,25 @@
-# Install media tools
-RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg imagemagick webp && apt-get clean
+FROM node:lts-buster
 
-# Set working directory
-WORKDIR /app
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  npm i pm2 -g && \
+  rm -rf /var/lib/apt/lists/*
+  
+RUN  git clone https://github.com/Xchristech/CHRISSPARK-XMD  /root/Lucky_BOt
+WORKDIR /root/Chris_Bot/
 
-# Copy package files
-COPY package*.json ./
 
-# Install dependencies
-RUN npm install && npm cache clean --force
 
-# Copy app code
+COPY package.json .
+RUN npm install pm2 -g
+RUN npm install --legacy-peer-deps
+
 COPY . .
 
-# Optional: Expose port if your bot runs a web server
-EXPOSE 3000
+EXPOSE 5000
 
-# Set environment
-ENV NODE_ENV=production
-
-# Start the bot
-CMD ["npm", "start"]
+CMD ["node", "control.js"]
