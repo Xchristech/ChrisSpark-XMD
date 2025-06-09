@@ -48,7 +48,7 @@ href="https://github.com/Xchristech/CHRISSPARK-XMD/graphs/commit-activity"><img 
 | ------------- | ----------------- | 
 | HEROKU | <a href="https://ChrisSpark-XMD-deploy-your-bot-with-your-github-username.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=0000FF"/></a></td> | 
 | TALKDROVE | <a href="https://host.talkdrove.com/share-bot/47" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-A52A2A?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td> |
-| KOYEB | <a href="https://app.koyeb.com/services/deploy?type=git&repository=mr-X-force/LUCKY-MD-XFORCE" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td> | 
+| KOYEB | <a href="https://app.koyeb.com/services/deploy?type=git&repository=Xchristech/CHRISSPARK-XMD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td> | 
 | RAILWAY | <a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td> |
 | RENDER | <a href="https://dashboard.render.com/web/new" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td> | 
 | NETLIFY | <a href="https://app.netlify.com/" target="_blank"><img src="https://img.shields.io/badge/Netlify-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td> |
@@ -56,7 +56,7 @@ href="https://github.com/Xchristech/CHRISSPARK-XMD/graphs/commit-activity"><img 
 
 
 JOIN MY GITHUBS ACCOUNTS BY FOLLOW TO GET MORE SCIPTS AND PROJECTS
-[![Follow My Main Git](https://img.shields.io/static/v1?label=Follow%20My%20GitHub&message=Account&color=800000&style=for-the-badge&logo=github&logoColor=pink)](https://github.com/Fred1e)  
+[![Follow My Main Git](https://img.shields.io/static/v1?label=Follow%20My%20GitHub&message=Account&color=800000&style=for-the-badge&logo=github&logoColor=pink)](https://github.com/Xchristech)  
 
 
 ---
