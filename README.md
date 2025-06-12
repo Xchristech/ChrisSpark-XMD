@@ -16,7 +16,7 @@
 
 <p align="center">
 <a href="https://github.com/Xchristech/CHRISSPARK-XMD"><img title="THIS-IS-PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=square&color=darkpink"></a> &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=SHRISSPARK-XMD&label=VIEWS&style=square&color=blue" />
+  <img src="https://komarev.com/ghpvc/?username=CHRISSPARK-XMD&label=VIEWS&style=square&color=blue" />
 </p>
 </p> 
 
